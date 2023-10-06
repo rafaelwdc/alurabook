@@ -3,7 +3,7 @@ hr {
 }
 
 .rodape {
-    background-color: var(--branco);
+    background-color: var(--cinza);
     padding: 1em;
 }
 
@@ -46,7 +46,7 @@ hr {
     }
 
     .rodape__link {
-        color: var(--cinza);
+        color: var(--cinza-claro);
         margin-left: .5em;
     }
 
