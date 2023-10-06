@@ -72,7 +72,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 25vw;
+    width: 35vw;
 }
 
 .container__botao:checked~.lista-menu {
@@ -152,6 +152,11 @@
 .opcoes {
     display: none;
 }
+@media screen and (min-width: 426px) {
+    .lista-menu {
+        width: 30vw;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .cabecalho {
@@ -206,6 +211,7 @@
 
     .lista-menu {
         display: none;
+        width: 15vw;
     }
 
     .opcoes__botao:checked~.opcoes__rotulo > .opcoes__item {
@@ -251,5 +257,8 @@
 
     .opcoes {
         margin-right: auto;
+    }
+    .lista-menu {
+        width: 10vw;
     }
 }
