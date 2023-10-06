@@ -5,7 +5,7 @@
 }
 
 .topicos__titulo {
-    color: var(--branco);
+    color: var(--preto);
     font-weight: 300;
     margin-bottom: 1em;
 }
@@ -21,11 +21,17 @@
 }
 
 .topicos__link {
-    color: var(--branco);
+    color: var(--cinza);
     padding: 1em;
     background-color: var(--laranja);
     font-size: 14px;
     font-weight: 700;
+}
+.topicos__link:hover {
+    color: var(--laranja);
+    background-color: var(--cinza);
+    transition: .4s;
+    
 }
 
 @media screen and (min-width:1024px) {
